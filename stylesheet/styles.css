@@ -1,0 +1,17 @@
+:root {
+    --primary-color:#3498db;
+    --secondary-color:#2ecc71;
+}
+
+* {
+    margin: 0;
+    padding: 0p;
+}   
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: url();
+}
