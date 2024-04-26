@@ -1,17 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
 :root {
-    --primary-color:#3498db;
+    --primary-color:#dbbc34;
     --secondary-color:#2ecc71;
 }
 
 * {
     margin: 0;
-    padding: 0p;
+    padding: 0;
 }   
 
 body {
+    background-color: orangered;
+}
+
+/* header start */
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.one {
+    background-color:rgb(62, 61, 68);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.logo {
+    display: inline-block;
+    margin-left: 20px;
+    width: 190px;
+    
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 4rem;
+}
+
+.logo h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
+
+.link-container {
+    margin-right: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.link-container a {
+   text-decoration: none;
+   font-size: 20px;
+   color: white;
+   padding-bottom: 5px;
+}
+
+.link-container a:hover {
+    border-bottom: 2px solid var(--primary-color);
+}
+/* header end */
+
+/* body start */
+ .two {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background: url();
+ }
+ .two .web-intro {
+    background-color: #a6aeb9;
+    color: #26282b;
+    justify-content: space-between;
+    align-items: center;
+    width: 3000px;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+ }
+
+ .web-intro h1 {
+  margin-left: 50px;
+ }
+
+ .web-intro p {
+    margin-right: 50px;
+ }
+
+  .body-images {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+  }
+   .cut {
+    display: inline-block;
+    width: 30%;
+   }
+  .cut img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  .cut p {
+    margin-top: 3px;
+    font-weight: bold;
+    line-height: 5px;
+  }
+/* body end */
+
+/* Footer start */
+
+.three {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(62, 61, 68);
 }
+/* footer end */
