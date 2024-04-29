@@ -11,6 +11,7 @@
 }   
 
 body {
+    box-sizing: border-box;
     background-color: orangered;
 }
 
@@ -123,5 +124,61 @@ body {
     display: flex;
     flex-wrap: wrap;
     background: rgb(62, 61, 68);
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
 }
+
+
+.three .faq {
+     margin-left: 10px;
+     width: 230px;
+}
+
+.three .faq ol li {
+   color: white;
+   padding-left: 30px;
+   list-style-type: none;
+}
+
+.three span {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    gap: -100px;
+    padding-left: 57px;
+}
+
+.three div {
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: white;
+    
+}
+
+.three div p {
+  display: flex;
+  width: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  padding-left: 30px;
+}   
+  
+.para {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.contacts {
+    height: 106px;
+}
+  .long {
+    margin-top: 10px;
+  }
+
+  .three div .about {
+    border: 2px solid red;
+  }
 /* footer end */
