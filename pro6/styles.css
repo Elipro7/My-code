@@ -1,0 +1,132 @@
+@import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
+ 
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ff6e00;
+  padding: 5px;
+  width: 300px;
+  height: 50px;
+  border-radius: 50px;
+  margin: 10px;
+  position: relative;
+  transition: width 1.5s;
+}
+
+.input {
+  margin: 10px 50px;
+  margin-left: 20px;
+  width: 100%;
+  color: #ff6e00;
+  border: none;
+  background: transparent;
+  outline: none;
+  transition-delay: 0.5s;
+}
+
+.fi-br-search {
+  position: absolute;
+  right: 15px;
+  width: 25px;
+  text-align: center;
+  color: #ffa31a;
+  cursor: pointer;
+}
+
+ul li {
+  display: inline;
+  margin-left: 40px;
+  font-family: sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 70%;
+  padding: 3rem;
+  box-shadow: 10px 10px 40px 5px #e0e0e0;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content-container h1 {
+  font-family: sans-serif;
+  font-size: 2rem;
+  color: #2c2c2c;
+}
+
+.content-container p {
+  font-family: sans-serif;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+  color: #444444;
+  width: 26rem;
+}
+
+.img {
+  transform: translateX(-120px);
+  margin-top: 1rem;
+  width: 350px;
+  height: 350px;
+  border-radius: 300px;
+  background: url(image/55\ Easy\ Sunday\ Dinner\ Ideas\ The\ Whole\ Family\ Will\ Love.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ingredients {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  padding: 50px;
+}
+
+.ingredients span {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.ing {
+  padding: 10px 20px;
+  border: 2px solid #ff6e00;
+  color: #ff6e00;
+  font-family: sans-serif;
+  border-radius: 100px;
+}
+ 
+.main-btn {
+  background: transparent;
+  border: none;
+  padding: 10px;
+  border: 2px solid #ff6e00;
+  color: #ff6e00;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background 0.5s,
+  color 0.5s;
+}
+
+.main-btn:active {
+  background: #000;
+  color: white;
+}
